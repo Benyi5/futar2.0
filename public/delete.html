@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="./delete.js"></script>
+    <title>Futár törlése</title>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>Futár törlése</h1>
+        </header>
+        <form id="deleteform" action="http://localhost:3000/futar" method="DELETE" enctype="multipart/form-data">
+            <p class="be">
+                <input type="number" name="id" id="id" placeholder="ID">
+            </p>
+            <p class="be">
+                <button type="button"  id="deleteButton">Futár törlése</button>
+            </p>
+        </form>
+    
+        <a href="index.html">Vissza a főoldalra</a>
+    </div>
+    
+</body>
+</html>
